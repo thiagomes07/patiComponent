@@ -1,18 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projeto Tailwind CSS v4</title>
-  <link href="./output.css" rel="stylesheet" />
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-100 flex items-center justify-center h-screen">
-  <div class="text-center">
-    <h2 class="text-lg font-semibold mb-4">Dispositivo: iPhone 14 Pro (390:844px)</h2>
-    <div class="w-[390px] h-[844px] bg-white rounded-xl shadow-md border border-gray-300 overflow-hidden">
-      <p>olá</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Tailwind CSS v4</title>
+    <link href="./output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="text-center">
+      <h2 class="text-lg font-semibold mb-4">
+        Dispositivo: iPhone 12 Pro (390x844px)
+      </h2>
+      <div
+        class="w-[390px] h-[844px] bg-white rounded-xl shadow-md border border-gray-300 overflow-hidden"
+      >
+        <div
+          class="w-80 p-4 bg-orange-50 rounded-[20px] outline outline-1 outline-offset-[-1px] outline-pink-700 inline-flex justify-center items-start gap-2.5"
+        >
+          <div
+            class="flex-1 inline-flex flex-col justify-center items-start gap-2.5"
+          >
+            <div class="justify-start text-pink-950 text-2xl font-semibold">
+              CRI CDIE
+            </div>
+            <div class="flex flex-col justify-start items-start gap-[5px]">
+              <div class="justify-start overflow-hidden text-ellipsis whitespace-nowrap max-w-full">
+                <span class="text-pink-950 text-base font-bold">Emissor:</span>
+                <span class="text-black text-base font-normal truncate max-w-[150px]">XP Investimentos</span>
+              </div>
+              <div class="justify-start overflow-hidden text-ellipsis whitespace-nowrap max-w-full">
+                <span class="text-pink-950 text-base font-semibold">Tipo:</span>
+                <span class="text-black text-base font-normal truncate max-w-[150px]">Renda Fixa</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="px-2.5 py-2 bg-pink-600 rounded-3xl flex justify-center items-center"
+          >
+            <div class="justify-start text-white text-sm font-semibold">
+              Conservador
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>

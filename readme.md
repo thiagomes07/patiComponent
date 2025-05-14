@@ -2,7 +2,7 @@
 
 ## 📌 Descrição do Projeto
 
-Este repositório contém o desenvolvimento de um componente da aplicação **PATI (Plataforma de Adequação de Tipo de Investidor)**, uma aplicação desenvolvida como parte da disciplina de **UX (User Experience)** da faculdade, em parceria com o **BTG Pactual** no módulo de **Engenharia de Software**.
+Este repositório contém o desenvolvimento de um componente da aplicação **PATI (Plataforma de Adequação de Tipo de Investidor)** como atividade da matéria de UX.
 
 O componente desenvolvido faz parte do frontend da aplicação, que é construída em **HTML e Tailwind CSS 4**, configurado com **PostCSS**.
 
@@ -20,7 +20,7 @@ O componente desenvolvido faz parte do frontend da aplicação, que é construí
 
 ```bash
 # Clone o repositório
-git clone [URL_DO_REPOSITORIO]
+git clone https://github.com/thiagomes07/patiComponent
 
 # Acesse o diretório do projeto
 cd patiComponente
@@ -58,7 +58,7 @@ Abra o arquivo `index.html` diretamente em seu navegador.
 
 ## 🎨 Link do Figma
 
-* [Link para o Protótipo no Figma]()
+* [Link para o Protótipo no Figma](https://www.figma.com/design/doPDJMfPKWiB727qmClFid/Untitled?node-id=0-1&m=dev)
 
 ---
 
@@ -66,13 +66,13 @@ Abra o arquivo `index.html` diretamente em seu navegador.
 
 ### O que deu certo
 
-* O protótipo foi desenvolvido com alta fidelidade no Figma, utilizando Auto Layout e conteúdo mockado.
-* O componente foi construído de forma responsiva e com uso adequado de Tailwind CSS 4.
+* No geral a experiência de utilização do Figma foi bastante positiva porque a dupla já tinha certa afinidade com a ferramente, mas mesmo no caso do dev mode que foi uma novidade, sua utilização foi bastante fluida.
+* A extração de estilos por meio do dev mode do Figma deu surpreendentemente certo, tivemos que fazer poucos ajustes.
 
 ### Dificuldades encontradas
 
-* Ajustes de layout para manter a fidelidade ao protótipo Figma.
-* Garantir que o componente estivesse corretamente componentizado e reutilizável.
+* Um ponto que não deu totalmente certo foi porque o código extraído do Figma utilizava a fonte Roboto, mas não a tínhamos presente.
+* Outro aspecto problemático foi que o código gerado não lida bem com a quebra de componente quando um texto longo é passado, e o texto original: "Emissor: XP Investimentos" acabou quebrando o estilo. Aprendemos que precisamos, portanto, ajustar o código para impedir que isso aconteça por meio de truncate do texto.
 
 ---
 
